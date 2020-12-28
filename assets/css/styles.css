@@ -291,7 +291,7 @@ a:hover {
   align-items: center;
   flex-direction: column;
   color: white;
-  background: url("/assets/images/about-back.jpg")
+  background: url("../images/about-back.jpg")
     center center / cover no-repeat;
   height: 400px;
 }
