@@ -613,8 +613,7 @@ a:hover {
 }
 
 .big-console-card:hover {
-  transform: translateY(-10px);
-  transform: scale(1.05, 1.05);
+  transform: translateY(-10px) scale(1.05, 1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -641,7 +640,22 @@ a:hover {
 }
 
 .small-console-card:hover {
-  transform: translateY(-10px);
-  transform: scale(1.05, 1.05);
+  transform: translateY(-10px) scale(1.05, 1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.big-console-card p {
+  cursor: pointer;
+}
+
+.big-console-card h4 {
+  cursor: pointer;
+}
+
+.small-console-card p {
+  cursor: pointer;
+}
+
+.small-console-card h4 {
+  cursor: pointer;
 }
