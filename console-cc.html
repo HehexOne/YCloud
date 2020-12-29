@@ -15,15 +15,21 @@
             <div class="wide-console">
                 <div class="wide-console">
                     <div style="margin-top: 30px; flex-direction: row; margin-bottom: 50px; margin-left: 30px;" class="wide-block-console">
-                        <h5>Страница</h5>
-                        <p>Каталог сервисов</p>
+                        <a href="console.html" style="line-height: 50px;">Вернуться в Каталог</a>
+                        <h5>Сервис</h5>
+                        <p>Compute Cloud</p>
+                        <div id="compute-cloud-icon"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="14" height="14" fill="currentColor" stroke="none" class="yc-icon"><svg viewBox="0 0 16 16"><path d="M16 7V5h-2V3a1 1 0 0 0-1-1h-2V0H9v2H7V0H5v2H3a1 1 0 0 0-1 1v2H0v2h2v2H0v2h2v2a1 1 0 0 0 1 1h2v2h2v-2h2v2h2v-2h2a1 1 0 0 0 1-1v-2h2V9h-2V7zm-5 4H5V5h6z"></path></svg></svg></div>
                     </div>
                 </div>
                 <div style="margin-bottom: 100px;" class="wide-console">
                     <div class="wide-block-console">
-                        <a style="margin:30px;" href="#"><div class="list-link-console-selected"><p>Дашборд каталога</p></div></a>
-                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Сервисные аккаунты</p></div></a>
-                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Федерации</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Виртуальные машины</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Диски</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console-selected"><p>Снимки дисков</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Образы</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Группы виртуальных машин</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Группы размещений</p></div></a>
+                        <a style="margin:30px;" href="#"><div class="list-link-console"><p>Операции</p></div></a>
                     </div>
                 </div>
             </div>
@@ -38,64 +44,21 @@
             <div class="wide-console">
                 <div class="wide-block-console">
                     <header id="header-console">
-                        <h2 style="margin-left: 30px;">Дашборд каталога</h2>
+                        <h2 style="margin-left: 30px;">Снимки дисков</h2>
                     </header>
                 </div>
             </div>
-            <div style="margin-top: 25px; margin-bottom: 100px;" class="wide-console">
+            <div style="margin: 100px;" class="wide-console">
                 <div style="margin-left: 30px;" class="wide-block-console">
-                  <h3>Избранные сервисы</h3>
-                  <div class="big-console-cards">
-                    <a href="console-cc.html"><div class="big-console-card">
-                      <h4>Compute Cloud</h4>
-                      <p>Сервис виртуальных машин</p>
-                    </div></a>
-                    <a href="console-cc.html"><div class="big-console-card">
-                      <h4>Datasphere</h4>
-                      <p>Сервис машинного обучения</p>
-                    </div></a>
-                    <a href="console-cc.html"><div class="big-console-card">
-                      <h4>Cloud Functions</h4>
-                      <p>Сервис функций с выполнением в реальном времени</p>
-                    </div></a>
-                    <a href="console-cc.html"><div class="big-console-card">
-                      <h4>AI API</h4>
-                      <p>Сервис API зрения, речевых технологий и локатора</p>
-                    </div></a>
-                  </div>
-                  <h3>Все сервисы</h3>
-                  <div class="small-console-cards">
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Compute Cloud</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Data Sphere</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Cloud Functions</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>AI API</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Virtual Private Cloud</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Data Proc</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Data Lens</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Monitoring</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>IoT Core</h4>
-                    </div></a>
-                    <a href="console-cc.html"><div class="small-console-card">
-                      <h4>Yandex Database</h4>
-                    </div></a>
-                  </div>
+                    <h2 style="text-align: center; line-height: 25px;">У вас нет сохранённых снимков дисков виртуальных машин</h2>
+                    <div id="img-console">
+                        <img style="width: 250px; height: 250px;" src="assets/images/capture.svg">
+                        <div style="line-height: 20px; text-align: center;" id="img-console-block">
+                            <h3>Создать снимок диска очень просто!</h3>
+                            <p style="font-size: 16px;">В меню управления виртуальной машиной выберите пункт "Жёсткий диск"<br>А затем "Создать снимок жёсткого диска"<br>Снимки дисков всех ваших машин отображаются в данном разделе консоли Яндекс.Облака</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
