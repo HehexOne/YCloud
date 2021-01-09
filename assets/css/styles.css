@@ -419,54 +419,6 @@ a:hover {
   align-items: center;
 }
 
-@media screen and (max-width:1015px) {
-  #border {
-    width: 0;
-  }
-}
-
-@media screen and (max-width: 838px) {
-  #navbar-mobile {
-    display: flex;
-  }
-
-  #navbar {
-    display: none;
-  }
-
-  .footer-text-block {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
-  .bottom-bar-text {
-    width: 70%;
-    text-align: center;
-  }
-
-  .empty-block {
-    display: none;
-  }
-}
-
-@media screen and (max-width:996px) {
-  .wide {
-    margin-bottom: 100px;
-  }
-
-  .left-right {
-    margin-bottom: 100px;
-  }
-
-  .error-text {
-    margin-top: 200px;
-  }
-
-  .left-right-doc {
-    width: 95%;
-  }
-}
-
 .code {
   display: flex;
   font-family: monospace;
@@ -658,4 +610,105 @@ a:hover {
 
 .small-console-card h4 {
   cursor: pointer;
+}
+
+#block-services {
+  margin-left: 30px;
+  line-height: 20px;
+}
+
+#console-cc-image {
+  width: 250px;
+  height: 250px;
+}
+
+#block-console-cc {
+  width: 600px;
+}
+
+#cc-console-block-img {
+  margin-left: 30px;
+}
+
+
+@media screen and (max-width:1015px) {
+  #border {
+    width: 0;
+  }
+}
+
+@media screen and (max-width: 838px) {
+  #navbar-mobile {
+    display: flex;
+  }
+
+  #cc-console-block-img {
+    margin-left: 0;
+    padding: 20px;
+  }
+
+  #block-console-cc {
+    width: 100%;
+  }
+
+  #certificate {
+     height: 300px;
+  }
+
+  #console-cc-image {
+    width: 100px;
+    height: 100px;
+  }
+
+  #block-services {
+    margin-left: 10px;
+  }
+
+  .big-console-card {
+    width: 150px;
+    height: 150px;
+    padding: 30px;
+    align-items: center;
+  }
+
+  .small-console-card {
+    width: 150px;
+    height: 150px;
+  }
+
+  #navbar {
+    display: none;
+  }
+
+  .footer-text-block {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .bottom-bar-text {
+    width: 70%;
+    text-align: center;
+  }
+
+  .empty-block {
+    display: none;
+  }
+}
+
+@media screen and (max-width:996px) {
+  .wide {
+    margin-bottom: 100px;
+  }
+
+  .left-right {
+    margin-bottom: 100px;
+  }
+
+  .error-text {
+    margin-top: 200px;
+  }
+
+  .left-right-doc {
+    width: 95%;
+  }
 }
